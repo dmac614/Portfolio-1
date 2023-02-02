@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio Project</title>
 
-  <!-- Link CSS & Fonts -->
   <link rel="stylesheet" href="styles.css">
-</head>
 
+  <!-- Fonts: Noto Sans is for headings. Sawarabi is for text -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Sawarabi+Mincho&display=swap" rel="stylesheet"> 
+
+</head>
 <body>
+
   <!-- Header Section -->
   <header class="nav-section">
     <nav class="nav-bar">
@@ -20,40 +24,46 @@
         <li><a href="">Contact Me</a></li>
       </ul>
     </nav>
-  </header>
+  </header> 
 
   <!-- Main Content Section -->
   <main class="main-content-section">
+
     <div class="main-heading-box">
       <h1 class="main-heading">My Portfolio</h1>
     </div>
 
-    <!-- Add later 
-    <div class="img-box">
-      <img src="" alt="">
-    </div>
-    -->
+    <!-- About Me Section -->
+    <section class="about-me-section">
 
-    <div class="about-me-box">
-      <h2 class="about-me-name">Daniel Macdonald</h2>
-      <p class="about-me-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima delectus doloribus soluta nihil dignissimos iure doloremque molestiae in nesciunt obcaecati aut natus, provident porro, neque quos asperiores. Placeat, perferendis quibusdam!</p>
-    </div>
+      <figure class="img-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/3891/3891130.png" alt="A programmer and their computer">
+        <figcaption>Aspiring Web Developer.</figcaption>
+      </figure>
+
+      <div class="about-me-box">
+        <h2 class="about-me-name">Daniel Macdonald</h2>
+        <p class="about-me-description">Welcome to my Portfolio! You can find some projects I have completed so far in my web developer journey. The technologies used in this project include HTML, CSS, Javascript, Git & GitHub.</p>
+      </div>
+    </section>
+
 
     <!-- Projects Section -->
     <section class="projects-section">
+
       <div class="projects-heading-box">
         <h2 class="projects-heading">My Projects</h2>
       </div>
 
       <div class="project-one-box">
         <div class="project-one">
-          <!-- Add JS onclick event -->
+          <p>Project One</p>
         </div>
       </div>
 
       <div class="project-two-box">
         <div class="project-two">
-          <!-- Add JS onclick event -->
+          <p>Project Two</p>
         </div>
       </div>
 
@@ -62,7 +72,9 @@
 
   <!-- Footer Section -->
   <footer class="footer-section">
-    <div></div>
+    <div>
+      <p>&copy; Daniel Macdonald</p>
+    </div>
   </footer>
 
   <!-- JavaScript -->
