@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+
+  <link rel="stylesheet" href="styles-contact.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="nav-section">
+      <nav class="nav-bar">
+        <ul class="nav-links">
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="./contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header> 
+
+    <main class="main-content">
+
+      <div class="maing-heading-box">
+        <h1 class="main-heading">Contact Page</h1>
+      </div>
+
+      <section class="form-container">
+        <form action="" method="POST">
+          <h2>Do you want to collaborate?</h2>
+
+          <section class="contact-name">
+            <label for="full-name">Full name: </label>
+            <input type="text" id="full-name" name="name">
+          </section>
+
+          <section class="contact-email">
+            <label for="email-address">Email address: </label>
+            <input type="email" id="email-address" name="email" required>
+          </section>
+
+          <section class="contact-number">
+            <label for="phone-number">Phone number: </label>
+            <input type="number" id="phone-number" name="phone" pattern="[0-9]" required>
+          </section>
+
+          <section class="comments-box">
+            <label for="comments">Do you have any comments?</label>
+            <br>
+            <textarea id="comments" name="comments" placeholder="Type comments here"></textarea>
+          </section>
+
+          <section class="submit-button">
+            <input type="submit" value="Submit">
+          </section>
+        </form>
+      </section>
+
+      <section class="contact-links">
+        <div class="contact-links-box">
+          <li><a href="">GitHub</a></li>
+          <li><a href="">CodePen</a></li>
+          <li><a href="">Email me</a></li>
+        </div>
+      </section>
+    </main>
+
+      <!-- Footer Section -->
+    <footer class="footer-section">
+      <div>
+        <h4>&copy; Daniel Macdonald</h4>
+      </div>
+    </footer>
+</body>
+</html>
