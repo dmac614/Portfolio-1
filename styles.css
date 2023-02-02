@@ -25,7 +25,6 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-
 /* Styling the header */
 
 header.nav-section {
@@ -41,7 +40,77 @@ header.nav-section {
   padding: 1rem;
 }
 
+.nav-links li:hover {
+  background-color: #adacac;
+  transition: background-color 300ms ease-in;
+}
+
 .nav-links a {
   color: #000;
   text-decoration: none;
 }
+
+/* Main Content */
+
+.main-heading-box {
+  display: flex;
+  justify-content: left;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.main-heading {
+  color: #000;
+  font-size: 3rem; 
+}
+
+
+/* Styling the About Me Section */
+
+.about-me-section {
+  height: 31.25rem;
+}
+
+figure{
+  width: 50%;
+  height: 12.5rem;
+  margin-left: 5rem;
+}
+
+figure img {
+  max-height: 100%;
+  width: auto;
+  display: block;
+}
+
+figure figcaption {
+  font-size: 14px;
+}
+
+.about-me-box {
+  margin: 0 2rem;
+
+}
+
+.about-me-name {
+  font-size: 5rem;
+  color: #195875;
+  margin-bottom: 0;
+  animation: move-name 1s;
+}
+
+@keyframes move-name {
+  25% {
+    rotate: 5deg; 
+  }
+  50% {
+    rotate: -5deg;
+  }
+  75% {
+    rotate: 5deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
