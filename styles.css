@@ -4,6 +4,7 @@ font-family: 'Sawarabi Mincho', serif;
 */
 
 /* Universal Styles */
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -25,7 +26,7 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-/* Styling the header */
+/* 1. Styling the header */
 
 header.nav-section {
   display: flex;
@@ -35,12 +36,17 @@ header.nav-section {
   background-color: #4e697a;
 }
 
+ul.nav-links {
+  padding-left: 0;
+}
+
 .nav-links li {
+  padding: 0 1rem 0;
   display: inline;
-  padding: 1rem;
 }
 
 .nav-links li:hover {
+  padding: 1rem;
   background-color: #adacac;
   transition: background-color 300ms ease-in;
 }
@@ -50,53 +56,68 @@ header.nav-section {
   text-decoration: none;
 }
 
-/* Main Content */
+/* 2. Main Content */
 
 .main-heading-box {
   display: flex;
-  justify-content: left;
-  margin-top: 3rem;
-  margin-left: 5rem;
+  justify-content: center;
+  background-color: #4e697a;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  border-radius: 0.3125rem; 
 }
+
+/* h1 tag */
 
 .main-heading {
+  padding: 0;
   color: #000;
-  font-size: 3rem; 
 }
 
+/* .main-heading:hover {
+  transform: scale(1.1);
+} */
 
-/* Styling the About Me Section */
+/* 3. Styling the About Me Section */
 
 .about-me-section {
-  height: 31.25rem;
+  height: 25rem;
 }
 
-figure{
-  width: 50%;
-  height: 12.5rem;
-  margin-left: 5rem;
+.img-container {
+  display: grid;
+  place-items: center;
 }
 
-figure img {
-  max-height: 100%;
-  width: auto;
-  display: block;
+figure {
+  margin: 0;
 }
 
-figure figcaption {
-  font-size: 14px;
+img {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin-bottom: 0;
 }
 
-.about-me-box {
-  margin: 0 2rem;
 
+.about-me-container {
+  display: grid;
+  place-items: center;
+  margin-top: 0.5rem;
 }
 
 .about-me-name {
-  font-size: 5rem;
   color: #195875;
+  font-size: 2.2rem;
   margin-bottom: 0;
+  margin-top: 0;
   animation: move-name 1s;
+}
+
+.about-me-description {
+  line-height: 1.7;
+  letter-spacing: 0.03125rem;
 }
 
 @keyframes move-name {
@@ -114,3 +135,21 @@ figure figcaption {
   }
 }
 
+
+
+
+/* 
+Use in a media query
+
+/* figure{
+  width: 100%;
+  height: 8rem;
+} */
+
+/* figure img {
+  max-height: 100%;
+  width: auto;
+  display: block;
+} */
+
+*/
