@@ -108,6 +108,10 @@ input, textarea, label {
   width: 100%;
 }
 
+input {
+  padding: 0.2rem;
+}
+
 .comments-box, .submit-button {
   margin-top: 1.25rem;
 }
@@ -115,6 +119,7 @@ input, textarea, label {
 input[type="submit"] {
   margin: 0 auto;
   width: auto;
+  cursor: pointer;
 }
 
 /* Styling the Contact Section */
@@ -124,6 +129,10 @@ input[type="submit"] {
   margin-top: 2.5rem;
   display: grid;
   place-items: center;
+}
+
+.contact-links-box ul {
+  padding-left: 0;
 }
 
 .contact-links-box li {
@@ -139,6 +148,7 @@ input[type="submit"] {
 .contact-links li:hover {
   background-color: #4e697a;
   border-radius: 0.3125rem; 
+  transition: background-color 300ms ease-in;
 }
 
 /* Styling the Footer Section */

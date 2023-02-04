@@ -138,21 +138,6 @@ img {
   }
 }
 
-/* 
-Use in a media query
-
-figure{
-  width: 100%;
-  height: 8rem;
-} 
-
-figure img {
-  max-height: 100%;
-  width: auto;
-  display: block;
-} */
-
-
 /* Styling the Projects Section */
 
 
@@ -199,6 +184,7 @@ figure img {
 
 .button-container button {
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 /* Styling the Footer Section */
@@ -211,14 +197,16 @@ figure img {
 
 /* Media Queries */
 
+/* Screen size 450-650px */
+
 @media only screen and (min-width: 450px) and (max-width: 650px) {
 
   a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .main-heading {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 
   .about-me-name {
@@ -252,17 +240,39 @@ figure img {
 
 }
 
+/* Screen size 650-800px */
+
+
 @media only screen and (min-width: 650px) and (max-width: 800px) {
+
+  .nav-links li {
+    padding: 0 2rem 0;
+  }
+
+  .nav-links li:hover {
+    padding: 1.1rem 2rem;
+    background-color: #adacac;
+    transition: background-color 300ms ease-in;
+  }
+
   a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .main-heading {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
+  figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 9.375rem;
+    height: 9.375rem;
+  } 
+
   .about-me-name {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   .about-me-description {
@@ -271,7 +281,7 @@ figure img {
   }
 
   .projects-heading {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   .projects-heading-box, .main-heading-box {
@@ -290,4 +300,75 @@ figure img {
   }
 }
 
-/* Style screen sizes beyond 800px !!!!! */
+/* Screen size 800-999px */
+
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+  .nav-links li {
+    padding: 0 2.5rem 0;
+  }
+
+  .nav-links li:hover {
+    padding: 1.2rem 2.5rem;
+    background-color: #adacac;
+    transition: background-color 300ms ease-in;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+
+  .main-heading-box {
+    display: flex;
+    justify-content: center;
+    max-width: 25rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-container {
+    margin: 0 0 0 4rem;
+  }
+
+  .about-me-name {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+  }
+
+  .about-me-description {
+    font-size: 1.1rem;
+    max-width: 33rem;
+    margin-top: 0;
+  }
+
+  img {
+    height: 12.5rem;
+    width: 12.5rem;
+  }
+
+  .projects-heading-box {
+    display: flex;
+    justify-content: center;
+    max-width: 25rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .projects-heading {
+    font-size: 2.3rem;
+  }
+
+  .projects-box {
+    margin: 3rem 5rem 0;
+  }
+
+}
