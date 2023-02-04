@@ -30,3 +30,9 @@ The portfolio has a separate "Contact Me" page which includes a form to fill in 
 2. JavaScript
 3. Git
 4. GitHub
+
+## Additional Comments
+
+This is my first time using Git & GitHub on a project. I did not create the repository on GitHub and link the Git CLI to the repository at the beginning, so I was unaware that all the "Commits" I made were being added to all of the files I had updated in the repository.
+
+i.e all files have the latest commit "Add media query for 800-999px", however I added the media query to styles.css only.
