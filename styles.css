@@ -82,7 +82,7 @@ ul.nav-links {
 /* 3. Styling the About Me Section */
 
 .about-me-section {
-  height: 25rem;
+  height: 21.875rem;
 }
 
 .img-container {
@@ -97,6 +97,7 @@ figure {
 img {
   height: 6.25rem;
   width: 6.25rem;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
@@ -118,6 +119,7 @@ img {
 .about-me-description {
   line-height: 1.7;
   letter-spacing: 0.03125rem;
+  margin: 1rem 1rem 0;
 }
 
 @keyframes move-name {
@@ -135,21 +137,73 @@ img {
   }
 }
 
-
-
-
 /* 
 Use in a media query
 
-/* figure{
+figure{
   width: 100%;
   height: 8rem;
-} */
+} 
 
-/* figure img {
+figure img {
   max-height: 100%;
   width: auto;
   display: block;
 } */
 
-*/
+
+/* Styling the Projects Section */
+
+
+.projects-section {
+  height: 21.875rem;
+}
+
+.projects-heading-box {
+  display: grid;
+  place-items: center;
+  background-color: #4e697a;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  border-radius: 0.3125rem; 
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-box {
+  background-color: #4e697a;
+  margin-top: 2rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  border-radius: 0.3125rem; 
+  height: 12.5rem;
+  width: 12.5rem;
+}
+
+.project-box h3 {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button {
+  margin-top: 1rem;
+}
+
+/* Styling the Footer Section */
+
+.footer-section {
+  display: grid;
+  place-items: center;
+  height: 6.25rem;
+}
+
