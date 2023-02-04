@@ -181,6 +181,7 @@ figure img {
   margin-top: 2rem;
   margin-left: 0.8rem;
   margin-right: 0.8rem;
+  margin-bottom: 0;
   border-radius: 0.3125rem; 
   height: 12.5rem;
   width: 12.5rem;
@@ -205,7 +206,7 @@ figure img {
 .footer-section {
   display: grid;
   place-items: center;
-  height: 6.25rem;
+  height: 3.125rem;
 }
 
 /* Media Queries */

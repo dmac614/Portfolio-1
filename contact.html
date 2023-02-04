@@ -27,14 +27,18 @@
     <!-- 2. Main Content Section -->
     <main class="main-content">
 
-      <div class="maing-heading-box">
+      <div class="main-heading-box">
         <h1 class="main-heading">Contact Page</h1>
       </div>
 
       <!-- 3. Form -->
-      <section class="form-container">
+      <section class="form-section">
+        <div class="form-heading-container">
+          <h2 class="form-heading">Do you want to collaborate?</h2>
+        </div>
+
+        <div class="form-container">
         <form action="" method="POST">
-          <h2>Do you want to collaborate?</h2>
 
           <section class="contact-name">
             <label for="full-name">Full name: </label>
@@ -48,7 +52,7 @@
 
           <section class="contact-number">
             <label for="phone-number">Phone number: </label>
-            <input type="number" id="phone-number" name="phone" pattern="[0-9]" required>
+            <input type="tel" id="phone-number" name="phone" pattern="[0-9]" required>
           </section>
 
           <section class="comments-box">
@@ -60,6 +64,7 @@
           <section class="submit-button">
             <input type="submit" value="Submit">
           </section>
+        </div>
         </form>
       </section>
 
