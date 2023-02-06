@@ -8,8 +8,8 @@
 
   <link rel="stylesheet" href="styles-contact.css">
 
-    <!-- Fonts: Noto Sans is for headings. Sawarabi is for text -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Sawarabi+Mincho&display=swap" rel="stylesheet"> 
+  <!-- Fonts: Noto Sans is for headings. Sawarabi is for text -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Sawarabi+Mincho&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
@@ -47,12 +47,12 @@
 
           <section class="contact-email">
             <label for="email-address">Email address: </label>
-            <input type="email" id="email-address" name="email" required>
+            <input type="email" id="email-address" name="email">
           </section>
 
           <section class="contact-number">
             <label for="phone-number">Phone number: </label>
-            <input type="tel" id="phone-number" name="phone" pattern="[0-9]" required>
+            <input type="tel" id="phone-number" name="phone" pattern="[0-9]">
           </section>
 
           <section class="comments-box">
@@ -61,7 +61,7 @@
           </section>
 
           <section class="submit-button">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="js-submit">
           </section>
         </div>
         </form>
@@ -85,5 +85,8 @@
         <h4>&copy; Daniel Macdonald</h4>
       </div>
     </footer>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
 </body>
 </html>
