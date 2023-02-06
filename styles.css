@@ -189,6 +189,7 @@ img {
   display: grid;
   place-items: center;
   height: 1.875rem;
+  margin-top: 3rem;
 }
 
 /* Media Queries */

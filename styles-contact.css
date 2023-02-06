@@ -25,6 +25,10 @@ h1, h2, h3, h4 {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+h2 {
+  cursor: pointer;
+}
+
 /* Styling the header */
 
 header.nav-section {
@@ -100,6 +104,7 @@ ul.nav-links {
 
 label {
   margin: 5px 0;
+  display: block;
 }
 
 input, textarea, label {
