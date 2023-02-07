@@ -1,11 +1,24 @@
-// index html onlick events
+// index.html onlick events
+
+// Project One
 let projectOne = document.querySelector('.p-one');
 
-function revealProjectOne() {
-  projectOne.innerHTML = "<img src="project-1.png">"
+function openProjectOne() {
+  window.location.assign('https://dmac614.github.io/Responsive-Club-Website/');
 }
 
-projectOne.onclick = revealProjectOne;
+projectOne.onclick = openProjectOne;
+
+// Project Two
+
+let projectTwo = document.querySelector('.p-two');
+
+function openProjectTwo() {
+  window.location.assign('https://dmac614.github.io/Company-Page/');
+}
+
+projectTwo.onclick = openProjectTwo;
+
 
 // contact.html h2
 let formHeading = document.querySelector('.form-heading');
@@ -15,15 +28,3 @@ function updateFormHeading() {
 }
 
 formHeading.onclick = updateFormHeading;
-
-
-
-// contact.html submit buttom
-let formSubmitButton = document.querySelector('.js-submit');
-
-function updateSubmitText() {
-  formSubmitButton.innerHTML = "Form Sent!";
-}
-
-formSubmitButton.onclick = updateSubmitText;
-
