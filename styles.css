@@ -116,7 +116,7 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03125rem;
   margin: 1rem 1rem 0;
-  max-width: 18.75;
+  max-width: 21.875rem;
 }
 
 @keyframes move-name {
@@ -212,7 +212,7 @@ img {
 
   .about-me-description {
     font-size: 1.025rem;
-    max-width: 25rem;
+    max-width: 28.125rem;
   }
 
   .projects-container {
@@ -337,9 +337,10 @@ img {
   .main-heading-box {
     display: flex;
     justify-content: center;
-    max-width: 25rem;
+    max-width: 40rem;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .main-heading {
@@ -351,7 +352,6 @@ img {
     justify-content: center;
     align-items: center;
     height: 28.125rem;
-    
   }
 
   .grid-mq800 {
@@ -365,13 +365,16 @@ img {
 
   .about-me-name {
     font-size: 3.2rem;
+    margin-top: 0;
     margin-bottom: 0;
+    max-width: 31.25rem;
+
   }
 
   .about-me-description {
     font-size: 1.1rem;
     margin-top: 0;
-    margin-left: 2rem;
+    max-width: 31.25rem;
   }
 
   img {
@@ -386,9 +389,10 @@ img {
   .projects-heading-box {
     display: flex;
     justify-content: center;
-    max-width: 25rem;
+    max-width: 40rem;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .projects-heading {
@@ -410,5 +414,9 @@ img {
   .footer-section h4 {
     font-size: 1.3rem;
   }
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
 
 }
