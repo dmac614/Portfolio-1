@@ -1,5 +1,11 @@
 // index html onlick events
+let projectOne = document.querySelector('.p-one');
 
+function revealProjectOne() {
+  projectOne.innerHTML = "<img src="project-1.png">"
+}
+
+projectOne.onclick = revealProjectOne;
 
 // contact.html h2
 let formHeading = document.querySelector('.form-heading');
