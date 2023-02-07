@@ -213,6 +213,7 @@ img {
   .about-me-description {
     font-size: 1.025rem;
     max-width: 28.125rem;
+    text-align: left;
   }
 
   .projects-container {
@@ -281,6 +282,7 @@ img {
   .about-me-description {
     font-size: 1.025rem;
     max-width: 37.5rem;
+    text-align: left;
   }
 
   .projects-container {
@@ -362,10 +364,11 @@ img {
 
   .about-me-container {
     max-width: 43.75rem;
+    padding: 2rem;
   }
 
   .about-me-name {
-    font-size: 3.2rem;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0;
     max-width: 31.25rem;
@@ -375,7 +378,9 @@ img {
   .about-me-description {
     font-size: 1.1rem;
     margin-top: 0;
-    max-width: 31.25rem;
+    max-width: 26.875rem;
+    text-align: left;
+
   }
 
   img {
@@ -419,5 +424,69 @@ img {
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+
+  .nav-links li {
+    padding: 0 2.5rem 0;
+  }
+
+  .nav-links li:hover {
+    padding: 1.2rem 2.5rem;
+    background-color: #adacac;
+    transition: background-color 300ms ease-in;
+  }
+
+  a {
+    font-size: 1.1rem;
+  }
+
+  .grid-mq800 {
+    display: flex;
+  }
+
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28.125rem;
+  }
+
+
+  .main-heading-box, .projects-heading-box {
+    display: flex;
+    justify-content: center;
+    max-width: 40rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me-container {
+    max-width: 43.75rem;
+    padding: 0 3rem;
+  }
+
+  .about-me-name {
+    font-size: 3.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 37.5rem;
+
+  }
+
+  .about-me-description {
+    font-size: 1.1rem;
+    margin-top: 0;
+    max-width: 37.5rem;
+    text-align: left;
+  }
+
+  img {
+    height: 12.5rem;
+    width: 12.5rem;
+  }
 
 }
